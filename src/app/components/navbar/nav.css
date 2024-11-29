@@ -1,0 +1,28 @@
+.navbar{
+    position:absolute;
+    background-color: #E7F0F8!important;
+    padding:0px
+}
+.navbar-nav .nav-link{
+    font-size: 12px;
+    font-family: var(--font-quick-sand);
+    font-weight: bold;
+    color: #192C3D;
+}
+.navbar-nav .nav-item{
+    margin-right:15px;
+    border-radius: 100px;
+    padding: 3px 10px;
+}
+.navbar-nav .nav-item:last-child{
+    margin-right: 0px!important;
+}
+.navbar-nav .nav-item:hover{
+    background-color: #B0DEFC;
+}
+.navbar-brand{
+    background-color: #fff;
+    border-radius: 100px;
+    padding: 10px 30px;
+    margin-right: 10px;
+}
