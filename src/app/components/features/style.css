@@ -1,0 +1,17 @@
+.features h4 {
+  font-family: var(--font-quick-sand);
+  font-weight: 700;
+  text-align: center;
+}
+.features .list-group-item {
+  background-color: #e7f0f8;
+  cursor: pointer;
+  border-top: none;
+}
+.features .list-group-item span {
+  font-size: 10px;
+}
+.features .list-group-item:hover {
+  background-color: #192c3d;
+  color: #fff;
+}

@@ -1,7 +1,8 @@
-"use client"
+"use client";
 
 import { useEffect } from "react";
 import TopSection from "./components/topSection";
+import Features from "./components/features";
 
 export default function Home() {
   useEffect(() => {
@@ -9,7 +10,8 @@ export default function Home() {
   }, []);
   return (
     <div>
-      <TopSection />
+      {/* <TopSection /> */}
+      <Features />
     </div>
   );
 }
