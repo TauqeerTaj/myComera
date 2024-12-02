@@ -1,0 +1,145 @@
+.animation{
+    padding-top:110px
+}
+
+.animation img{
+    width:100%
+}
+
+.mid-section{
+    background: linear-gradient(to bottom, #d1a7f4, #78c7f8);
+    height: 390px;
+    border-radius: 26px;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    position: relative;
+}
+
+.right-section{
+    background-color: #fff;
+    border-radius: 26px;
+    text-align: center;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.mid-section img{
+    width: 450px;
+    position: absolute;
+    bottom: 45%;
+    left: 15%;
+}
+
+.revolution {
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 90%;
+    position: absolute;
+    left: 5%;
+    bottom: 10%;
+}
+
+.right-section h2{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.right-section p{
+    font-size: 20px;
+}
+
+.img-background{
+    background-color: #B0DEFC;
+    border-radius: 26px;
+    padding: 20px;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.contact-sharing{
+    background-color: #B0DEFC;
+    border-radius: 26px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.contact-sharing img{
+    border-radius: 0px;
+}
+
+img {
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    border-radius: 26px;
+}
+
+.animate-top {
+    animation-name: slideFromTop;
+    animation-delay: 0s;
+}
+
+.animate-bottom {
+    animation-name: slideFromBottom;
+    animation-delay: 0s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.animate-left {
+    animation-name: slideFromLeft;
+    animation-delay: 0.3s;
+}
+
+.animate-right {
+    animation-name: slideFromRight;
+    animation-delay: 0s;
+}
+
+@keyframes slideFromTop {
+    0% {
+        opacity: 1;
+        transform: translateY(-100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideFromBottom {
+    0% {
+        opacity: 1;
+        transform: translateY(100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideFromLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideFromRight {
+    0% {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

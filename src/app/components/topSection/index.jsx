@@ -9,7 +9,7 @@ function TopSection() {
         <div className="px-5 pt-3">
         <div className="iframeParent">
         <Navbar/>
-        <button type="button" class="btn download-btn"><img src='/download-icon.png' alt='download'/>Download</button>
+        <button type="button" className="btn download-btn"><img src='/download-icon.png' alt='download'/>Download</button>
         <div className="text">Seamless Integration, Superior<br />Results: <strong>Revolutionizing<br />Communication!</strong></div>
         <iframe
           width="100%"

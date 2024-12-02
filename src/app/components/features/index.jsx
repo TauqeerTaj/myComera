@@ -9,18 +9,26 @@ export default function Features() {
           <h4>Fun Features For You</h4>
         </div>
         <div className="col-12">
-          <ul class="list-group">
-            <li class="list-group-item px-4">
+        {/* <ul class="hover-list">
+          <li>Item 1</li>
+          <li>Item 2</li>
+          <li>Item 3</li>
+        </ul> */}
+          <ul className="list-group">
+            <li className="list-group-item px-4">
               <div className="row">
                 <div className="col-8">
                   <strong>Contact Syncing</strong>
                 </div>
+                {/* <div className="col-4">
+                  <img src="features-mobile.png" alt="mobile"/>
+                </div> */}
                 <div className="col-4">
                   <span>Sync Your Phonebook in a Jiffy</span>
                 </div>
               </div>
             </li>
-            <li class="list-group-item px-4">
+            <li className="list-group-item px-4">
               <div className="row">
                 <div className="col-8">
                   <strong>Free Audio / Video Calls</strong>
@@ -30,7 +38,7 @@ export default function Features() {
                 </div>
               </div>
             </li>
-            <li class="list-group-item px-4">
+            <li className="list-group-item px-4">
               <div className="row">
                 <div className="col-8">
                   <strong>Messaging</strong>
@@ -40,7 +48,7 @@ export default function Features() {
                 </div>
               </div>
             </li>
-            <li class="list-group-item px-4">
+            <li className="list-group-item px-4">
               <div className="row">
                 <div className="col-8">
                   <strong>End-to-End Encryption</strong>
@@ -50,7 +58,7 @@ export default function Features() {
                 </div>
               </div>
             </li>
-            <li class="list-group-item px-4">
+            <li className="list-group-item px-4">
               <div className="row">
                 <div className="col-8">
                   <strong>Group Chats</strong>
@@ -60,7 +68,7 @@ export default function Features() {
                 </div>
               </div>
             </li>
-            <li class="list-group-item px-4">
+            <li className="list-group-item px-4">
               <div className="row">
                 <div className="col-8">
                   <strong>High-Quality Media / File Sharing</strong>
@@ -70,7 +78,7 @@ export default function Features() {
                 </div>
               </div>
             </li>
-            <li class="list-group-item px-4">
+            <li className="list-group-item px-4">
               <div className="row">
                 <div className="col-8">
                   <strong>Notifications</strong>
@@ -80,7 +88,7 @@ export default function Features() {
                 </div>
               </div>
             </li>
-            <li class="list-group-item px-4">
+            <li className="list-group-item px-4">
               <div className="row">
                 <div className="col-8">
                   <strong>Location Sharing</strong>

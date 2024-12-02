@@ -3,6 +3,8 @@
 import { useEffect } from "react";
 import TopSection from "./components/topSection";
 import Features from "./components/features";
+import AnimationSection from "./components/animationSection";
+import DownloadSection from "./components/downloadSection";
 
 export default function Home() {
   useEffect(() => {
@@ -11,7 +13,9 @@ export default function Home() {
   return (
     <div>
       {/* <TopSection /> */}
-      <Features />
+      {/* <Features /> */}
+      {/* <AnimationSection /> */}
+      <DownloadSection />
     </div>
   );
 }
