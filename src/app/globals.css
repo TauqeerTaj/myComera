@@ -35,6 +35,24 @@ a {
   text-decoration: none;
 }
 
+marquee {
+  background: var(--background);
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  margin: 50px 0px;
+  padding: 20px 0px;
+  font-weight: bold;
+}
+marquee img{
+  border-radius: unset;
+  margin-right: 20px;;
+}
+
+marquee .content {
+  display: inline;
+  margin-right: 20px;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

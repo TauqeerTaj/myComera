@@ -3,7 +3,7 @@ import './nav.css'
 
 function Navbar() {
     return (
-        <>
+        <header>
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <div className="container-fluid">
                 <a className="navbar-brand" href="#">
@@ -33,7 +33,7 @@ function Navbar() {
                 </div>
             </div>
         </nav>
-        </>
+        </header>
     )
 }
 

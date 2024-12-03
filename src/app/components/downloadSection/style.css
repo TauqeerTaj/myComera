@@ -1,16 +1,44 @@
+.downSection{
+    height: 100vh;
+}
+
 h2{
     font-size: 80px;
 }
 .parent {
     height: 100%;
-    filter: url("#goo");
-    /* overflow: hidden; */
-    position: relative;
+    filter: url("#go");
+}
+.parent img {
+    position: absolute;
+    width: 160px;
+    bottom: -24px;
+    left: 33%;
+    z-index: 1500;
 }
 .shape-section{
-    background-color: #000;
-    clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
+    clip-path: polygon(0 18%, 25% 18%, 25% 0, 73% 0, 73% 18%, 100% 18%, 100% 80%, 85% 80%, 85% 100%, 15% 100%, 15% 69%, 0 69%);
     height: 100%;
+    position: relative;
+    /* overflow: hidden; */
+}
+.shape-section iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scale(1.5); /* Adjust scale as needed */
+    transform-origin: center center; /* Adjust origin point */
+}
+
+.links{
+    width: 40%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.links img{
+    width: 150px;
+    cursor: pointer;
 }
 
 .animate-top {
@@ -48,7 +76,7 @@ h2{
 @keyframes slideFromLeft {
     0% {
         opacity: 0;
-        transform: translateX(-50px);
+        transform: translateX(-100%);
     }
     100% {
         opacity: 1;

@@ -1,30 +1,11 @@
 .iframeParent {
     filter: url("#goo");
-    /* overflow: hidden; */
     position: relative;
     height: 100%;
+    
   }
-  iframe {
-    /* width: 100%; */
-    /* height: 100%; */
-    /* clip-path: polygon(
-      0% 15%,
-      58% 15%,
-      58% 0,
-      85% 0%,
-      85% 15%,
-      100% 15%,
-      100% 85%,
-      85% 85%,
-      85% 100%,
-      15% 100%,
-      15% 85%,
-      0% 85%
-    ); */
+  .iframeParent iframe {
     clip-path: polygon(0 14%, 59% 14%, 61% 0, 81% 0, 83% 15%, 100% 15%, 100% 55%, 85% 55%, 85% 80%, 8% 80%, 8% 56%, 0 55%);
-  }
-  iframe video{
-    opacity: 0.8!important;
   }
   .download-btn{
     position:absolute;
